@@ -1,0 +1,54 @@
+@media only screen and (min-width: 38rem){
+
+    header, main, nav, footer {
+        max-width: 900px;
+        margin: 0 auto;
+    }
+    header {
+        grid-template-columns: 24px auto;
+    }
+
+    .hamburger {
+        display: none;
+
+    }
+    .navigation {
+        display: block;
+    }
+    .navigation ul {
+        display: flex;
+    }
+    .navigation a {
+        border: none;
+    
+    }
+    .card {
+        margin: 0%;
+    }
+    .container {
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+        grid-template-areas:
+            "about photo"
+            "courses courses";
+        gap: 20px;
+        align-items: start;
+    }
+
+    .about {
+        grid-area: about;
+    }
+
+    .photo {
+        grid-area: photo;
+    }
+
+    .courses {
+        grid-area: courses;
+    }
+
+    .card {
+        margin: 0;
+    }
+
+}
