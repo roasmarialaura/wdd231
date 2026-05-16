@@ -1,0 +1,172 @@
+body {
+    
+    background-color: #FFFFFF; 
+    font-family: "Roboto", sans-serif;
+
+}
+
+header {
+  display: grid;
+  grid-template-columns: 24px auto 44px;
+  padding: 5px 0 5px 10px;
+  align-items: end;
+  border-bottom: solid 1px #ddd;
+  column-gap: 8px;
+  background-color: white
+}
+
+header img {
+  display: block;
+  width: 100%;
+  height: auto;
+  padding-bottom: 5px;
+}
+header span {
+  font-size: 1.2rem;
+  color: #020c68;
+}
+
+.hamburger {
+  background: none;
+  border: none;
+  font-size: 2rem;
+  color: #001aff;
+  cursor: pointer;
+}
+.hamburger::before{
+  content: "\2630";
+}
+.hamburger.show::before{
+  content: "\00d7";
+}
+.navigation {
+  display: none;
+  background-color: #00a2ff;
+}
+.navigation.show {
+  display: block;
+}
+.navigation ul {
+  list-style-type: none;
+  margin: 0%;
+  padding: 0%;
+}
+.navigation a {
+  display: block;
+  padding: .8rem 10px;
+  color: white;
+  text-decoration: none;
+  border-bottom: solid 1px grey
+}
+.navigation li.current {
+  background-color: #001aff;
+}
+.navigation a:hover {
+  background-color: rgb(252, 194, 6);
+  color: white;
+}
+
+h1 {
+  margin-left: 10px;
+  color: #020c68;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+h2 {
+  color:#020c68;
+  text-align: center;
+  margin-top: 0px;
+  padding: 10px;
+  background-color:#00a2ff;
+  border-radius: 8px;
+  
+}
+.card {
+  background-color:rgb(248, 218, 121);
+  margin: 10px;
+  border-radius: 8px;
+  padding: 10px;
+   
+}
+.card p {
+  color: #020c68;
+}
+.photo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+
+}
+.photo img {
+  max-width: 150px;
+  border-radius: 8px;
+}
+.photo h2 {
+  text-align: center;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+  width: 100%;
+}
+.buttons button {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  background:#00a2ff;
+  color:#020c68;
+  border-radius: 6px;
+}
+.buttons button:hover {
+  background-color:#020c68;
+  color: white;
+}
+.courses {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 5px;
+  gap: 10px;
+}
+.course {
+  margin: 0;
+  padding: 12px;
+  background-color:#00a2ff;
+  color: #020c68;
+  border: #020c68 solid 1px;
+}
+
+/*---Footer---*/
+footer {
+  background-color: #00a2ff;
+  padding: 1rem 10px;
+  text-align: center;
+}
+.social {
+  display: flex;
+  justify-content: center;
+  column-gap: 8px;
+}
+
+.social a {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  border: #020c68 solid 1px;
+  border-radius: 22px;
+  background-color: #ddd;
+}
+.social img {
+  width: 22px;
+  height: 22px;
+}
+.social a:hover {
+  background-color: rgb(252, 194, 6);
+}
