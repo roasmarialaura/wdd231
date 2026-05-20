@@ -1,0 +1,73 @@
+body {
+	font-family: Roboto, sans-serif;
+}   
+
+header {
+  text-align: center;
+  padding: 1rem;
+}
+h1 {
+	
+    background-color: #cfcfe0;
+    color: #4b4ba8;
+}
+
+
+#cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  padding: 1rem;
+
+  
+}
+
+#cards section {
+  background-color: #cfcfe0;
+  border: 1px solid #4b4ba8;
+  padding: 1.5rem;
+  text-align: center;
+ 
+}
+
+#cards h2 {
+  color: #4b4ba8;
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  font-family: Georgia, serif;
+}
+#cards h3 {
+    color: #4b4ba8;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    font-family: Georgia, serif;
+}
+/*ards p {
+  font-size: 1.2rem;
+  margin: 0.5rem 0;
+}*/
+
+#cards img {
+  margin-top: 1rem;
+  width: 100%;
+  max-width: 250px;
+  height: auto;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.4);
+}
+footer {
+    text-align: center;
+    background-color: #cfcfe0;
+    color: #4b4ba8;
+    padding: 10px;
+}
+
+@media only screen and (min-width: 640px) {
+  #cards {
+    
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+
+
+
