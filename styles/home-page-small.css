@@ -1,6 +1,6 @@
 body {
     
-    background-color: #FFFFFF; 
+    background-color: rgb(255, 255, 255); 
     font-family: "Roboto", sans-serif;
 
 }
@@ -10,9 +10,9 @@ header {
   grid-template-columns: 24px auto 44px;
   padding: 5px 0 5px 10px;
   align-items: end;
-  border-bottom: solid 1px #ddd;
+  border-bottom: solid 1px rgb(221, 221, 221);
   column-gap: 8px;
-  background-color: white
+  background-color: rgb(255, 255, 255)
 }
 
 header img {
@@ -23,14 +23,14 @@ header img {
 }
 header span {
   font-size: 1.2rem;
-  color: #020c68;
+  color: rgb(2, 12, 104);
 }
 
 .hamburger {
   background: none;
   border: none;
   font-size: 2rem;
-  color: #001aff;
+  color: rgb(0, 26, 255);
   cursor: pointer;
 }
 .hamburger::before{
@@ -41,7 +41,7 @@ header span {
 }
 .navigation {
   display: none;
-  background-color: #00a2ff;
+  background-color: rgb(0, 162, 255);
 }
 .navigation.show {
   display: block;
@@ -54,46 +54,59 @@ header span {
 .navigation a {
   display: block;
   padding: .8rem 10px;
-  color: white;
+  color: rgb(255, 255, 255);
   text-decoration: none;
-  border-bottom: solid 1px grey
+  border-bottom: solid 1px rgb(128, 128, 128)
 }
 .navigation li.current {
-  background-color: #001aff;
+  background-color: rgb(0, 26, 255);
 }
 .navigation a:hover {
-  background-color: rgb(252, 194, 6);
-  color: white;
+  background-color: rgb(238, 212, 125);
+  color:  rgb(2, 12, 104);
 }
 
-h1 {
-  margin-left: 10px;
-  color: #020c68;
-}
 .container {
   display: flex;
   flex-direction: column;
   gap: 15px;
 }
+.container > h1 {
+  grid-column: 1 / -1;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  color: rgb(2, 12, 104);
+}
+
 h2 {
-  color:#020c68;
+  color: rgb(2, 12, 104);
   text-align: center;
   margin-top: 0px;
   padding: 10px;
-  background-color:#00a2ff;
+  background-color: rgb(0, 162, 255);
   border-radius: 8px;
   
 }
 .card {
-  background-color:rgb(248, 218, 121);
   margin: 10px;
   border-radius: 8px;
   padding: 10px;
    
 }
-.card p {
-  color: #020c68;
+.card-about {
+  background-color:  rgb(238, 212, 125);
+  border-radius: 8px;
+
 }
+.card-about p {
+  color: rgb(2, 12, 104);
+  padding: 10px;
+}
+.card-photo {
+  background-color:  rgb(238, 212, 125);
+  border-radius:  8px;
+}
+
 .photo {
   display: flex;
   justify-content: center;
@@ -105,9 +118,7 @@ h2 {
   max-width: 150px;
   border-radius: 8px;
 }
-.photo h2 {
-  text-align: center;
-}
+
 .buttons {
   display: flex;
   justify-content: space-between;
@@ -118,13 +129,13 @@ h2 {
   flex: 1;
   padding: 12px;
   border: none;
-  background:#00a2ff;
-  color:#020c68;
+  background: rgb(0, 162, 255);
+  color: rgb(2, 12, 104);
   border-radius: 6px;
 }
 .buttons button:hover {
-  background-color:#020c68;
-  color: white;
+  background-color: rgb(0, 26, 255);
+  color: rgb(255, 255, 255);
 }
 .courses {
   display: flex;
@@ -136,14 +147,19 @@ h2 {
 .course {
   margin: 0;
   padding: 12px;
-  background-color:#00a2ff;
-  color: #020c68;
-  border: #020c68 solid 1px;
+  background-color: rgb(0, 162, 255);
+  color: rgb(2, 12, 104);
+  border: rgb(2, 12, 104) solid 1px;
+}
+.completed {
+    background-color: rgb(238, 212, 125);
+    color: rgb(2, 12, 104);
+    font-weight: bold;
 }
 
 /*---Footer---*/
 footer {
-  background-color: #00a2ff;
+  background-color: rgb(0, 162, 255);
   padding: 1rem 10px;
   text-align: center;
 }
@@ -159,14 +175,14 @@ footer {
   align-items: center;
   width: 44px;
   height: 44px;
-  border: #020c68 solid 1px;
+  border: rgb(2, 12, 104) solid 1px;
   border-radius: 22px;
-  background-color: #ddd;
+  background-color:rgb(221, 221, 221);
 }
 .social img {
   width: 22px;
   height: 22px;
 }
 .social a:hover {
-  background-color: rgb(252, 194, 6);
+  background-color: rgb(238, 212, 125);
 }
