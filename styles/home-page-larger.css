@@ -1,7 +1,7 @@
 @media only screen and (min-width: 38rem){
 
     header, main, nav, footer {
-        max-width: 900px;
+        max-width: 1200px;
         margin: 0 auto;
     }
     header {
@@ -22,33 +22,32 @@
         border: none;
     
     }
-    .card {
-        margin: 0%;
-    }
     .container {
         display: grid;
         grid-template-columns: 2fr 1fr;
-        grid-template-areas:
+        grid-template-areas: 
+            "title title"
             "about photo"
             "courses courses";
-        gap: 20px;
-        align-items: start;
     }
-
-    .about {
+  
+    .card-about {
         grid-area: about;
     }
-
-    .photo {
+    
+    .card-photo {
         grid-area: photo;
     }
-
-    .courses {
+   
+    
+    
+    .card-courses {
         grid-area: courses;
     }
-
-    .card {
-        margin: 0;
+    .courses {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
     }
-
+    
 }
