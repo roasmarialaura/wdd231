@@ -92,10 +92,11 @@ function displayCourses(list) {
     // marcar completados
     if (course.completed) {
       div.classList.add("completed");
+      div.textContent = `✔ ${course.subject} ${course.number} - ${course.credits} credits`;
     }
-
+    else{
     div.textContent = `${course.subject} ${course.number} - ${course.credits} credits`;
-
+}
     container.appendChild(div);
   });
 
