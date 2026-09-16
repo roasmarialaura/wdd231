@@ -6,7 +6,7 @@
             "company addresses": " 351 Elias Jofre",
             "company phone number": "351-240-4522",
             "company website URL": "https://www.cachavachacba.com.ar/",
-            "image file name with extension": "images/cachavacha.svg",
+            "image file name with extension": "images/cachavacha.webp",
             "membership level": "Member",
             "email": "cachavacha@dulcesrl.com.ar"
         },
@@ -15,7 +15,7 @@
             "company addresses": " 509 Nores Martinez",
             "company phone number": "351-497-1600",
             "company website URL": "https://argentina.gridohelado.com/",
-            "image file name with extension": "images/grido.svg",
+            "image file name with extension": "images/grido.webp",
             "membership level": "Gold",
             "email":"grido@gmail.com" 
         },
@@ -24,7 +24,7 @@
             "company addresses": " 865 Elias Jofre",
             "company phone number": "351-217-1588",
             "company website URL":"https://pedix.app/wonder-jardin" ,
-            "image file name with extension": "images/wonder.svg",
+            "image file name with extension": "images/wonder.webp",
             "membership level": "Silver",
             "email": "wonder@gmail.com"
         },
@@ -33,7 +33,7 @@
             "company addresses": " 325 Elias Jofre",
             "company phone number": "351-220-4536",
             "company website URL": "https://www.instagram.com/famigliacasadehelados/" ,
-            "image file name with extension": "images/famiglia.svg",
+            "image file name with extension": "images/famiglia.webp",
             "membership level": "Member",
             "email": "famiglia@gmail.com"
         },
@@ -42,7 +42,7 @@
             "company addresses": " 721 Elias Jofre",
             "company phone number": "351-707-8111",
             "company website URL": "https://century21.com.ar/v/resultados/en-pais_argentina/en-estado_cordoba" ,
-            "image file name with extension": "images/century21.svg",
+            "image file name with extension": "images/century.webp",
             "membership level": "Silver",
             "email": "century@gmail.com"
         },
@@ -51,7 +51,7 @@
             "company addresses": " 351 Elias Jofre",
             "company phone number": "351-458-2626",
             "company website URL": "https://megatlon.com/barrio-jardin/",
-            "image file name with extension": "images/megatlon.svg",
+            "image file name with extension": "images/megatlon.webp",
             "membership level": "Gold",
             "email": "megatlon@gmail.com"
         },
@@ -60,7 +60,7 @@
             "company addresses": " 748 Elias Jofre",
             "company phone number": "351-715-7922",
             "company website URL": "https://aterrizar.viajes/",
-            "image file name with extension": "images/aterrizar.svg",
+            "image file name with extension": "images/aterrizar.webp",
             "membership level": "Member",
             "email": "comercial@aterrizar.viajes"
         }
