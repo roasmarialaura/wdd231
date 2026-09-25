@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<section>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber Home Page</title>
+    <meta name="description" content="WDD231 - Web Fronted Development I - Maria Laura Roas- Home Page">
+    <meta name="author" content="Maria Laura Roas">
+    <meta property="og:title" content="Home page">
+    <meta property="og:description" content="Discover the best local businesses, attractions, events, and opportunities in the southern area of Cordoba city.">
+    <meta property="og:url" content="http://127.0.0.1:5500/chamber/index.html#">
+    <meta property="og:image" content="https://roasmarialaura.github.io/wdd231/chamber/index.html">
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/chamber-small.css">
+    <link rel="stylesheet" href="styles/chamber-larger.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/home.js" defer></script>
+    <script src="scripts/weather.js" defer></script>
+    <link rel="icon" href="favicon.ico">
+
+</head>
+<body>
+    <header>
+        <img src="images/logo.svg" alt="site logo" width="45" height="45">
+        <span>Cordoba South Chamber of Commerce</span>
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+    
+        <nav id="nav-bar" class="navigation">
+            <ul>
+            <li class="current"><a href="#">Home</a></li>
+            <li><a href="#">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="#">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="hero">
+            <h1>Welcome to the Cordoba South Chamber of Commerce</h1>
+            <picture>
+                <source srcset="images/hero1-large.webp" media="(min-width: 1000px)">
+                <source srcset="images/hero1-medium.webp" media="(min-width: 500px)">
+                <img src="images/hero1-small.webp" alt="Cordoba Chamber of Commerce" width="500" height="250">
+            </picture>
+            <button id="join">Join the Chamber</button>
+        </section>
+        <section class="current-events">
+            <h2>Current Events</h2>
+            <p>.After office: 10% discount at all food establishments</p>
+            <p>.Spring Fridays: Tasting of new flavors at ice cream shops.</p>
+        </section>
+
+        <section class="card-weather">
+            <h2 id="town"></h2>
+            <img id="graphic" src="" alt="">
+            <p id="description"></p>
+            <p id="temperature"></p>
+        </section>
+	    <section class="spotlights">
+            <article class="grid-spotlights"></article>
+        </section>
+        
+    </main>
+    <footer>
+        <div class="footer-container">
+            <section class="contact">
+                <h2>Cordoba South Chamber of Commerce</h2>
+                <p>750 Elias Jofre</p>
+                <p>Cordoba South, 5017</p>
+                <p>info@corbobasouth.org</p>
+                <p>+54-351-3553000</p>
+            </section>
+            <section class="social">
+                <a href="https://www.linkedin.com/in/maria-laura-roas-2675a4381" target="_blank"><img src="images/linkedin.svg" alt="linkedin" width="16" height="16"></a>
+                <a href="https://github.com/roasmarialaura" target="_blank"><img src="images/github.svg" alt="github" width="16" height="16"></a>
+                <a href="https://www.facebook.com/marialaura.roas" target="_blank"><img src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
+            </section>
+            <section class="info">
+                <p>WDD231 - Class Project</p>
+                <p>Maria Laura Roas</p>
+                <p>    
+                    <span id="currentYear"></span>                           
+                </p>
+                <p>
+                    <span id="lastModified"></span> 
+                </p>
+            </section>
+        </div>
+           
+    </footer>
+
+</body>
+</html>
