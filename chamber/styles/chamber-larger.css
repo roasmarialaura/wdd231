@@ -22,6 +22,9 @@
         grid-template-columns: repeat(3, 1fr);
         gap: 1.5rem;
     }
+    .grid-spotlights {
+        grid-template-columns: repeat(3, 1fr);
+    }
     .card {
         padding: 1.5rem;
         box-shadow: none;
@@ -43,14 +46,12 @@
         height: 120px;
         margin-left: 5px;
     }
-
     article.list .card h2,
     article.list .card p,
     article.list .card a {
         margin: 0%;
         padding: 0%;
-        flex: 1;
-        
+        flex: 1;   
     }
     .footer-container {
         grid-template-columns: 1fr auto 1fr;
@@ -67,5 +68,10 @@
     }
     .social img {
         width: 55px;
+    } 
+    .hero button {
+        position: absolute;
+        top: 50px;
+        right: 450px;
     }
 }
