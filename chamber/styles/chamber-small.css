@@ -132,6 +132,57 @@ article.list .card img {
     grid-row: span 4;
     margin: 0 auto;
 }
+.hero {
+    position: relative;
+}
+.hero h1 {
+    background-color: var(--secondary-color);
+    text-align: center;
+    color: var(--text-dark);
+    margin: 0px;
+}
+.hero img {
+  width: 100%;
+  height: auto;
+  object-fit: contain;
+}
+
+.current-events {
+    color: var(--text-dark);
+    text-align: center;
+}
+#join {
+    background-color: var(--text-card);
+    color: var(--text-light);
+    padding: 10px;
+    
+}
+.card-weather {
+    border: 1px solid var(--border);
+    background-color: var(--secondary-color);
+    border-radius: 10px;
+    text-align: center;
+}
+.card-weather h2 {
+    color: var(--text-dark);
+    margin: .3rem 0;
+}
+.card-weather #description {
+    text-transform: capitalize;
+    color: var(--text-dark);
+    margin: .3rem 0;
+}
+.card-weather #temperature {
+    font-size: 2rem;
+    color: var(--text-card);
+    margin: .3rem 0;
+}
+.grid-spotlights {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1rem;
+}
+    
 footer {
     background-color: var(--primary-color);
     padding: 1.5rem;
