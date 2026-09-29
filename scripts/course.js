@@ -80,6 +80,7 @@ const courses = [
 ]
 const container = document.getElementById("courses");
 const creditsEl = document.getElementById("credits");
+const courseDetails = document.getElementById("course-details");
 
 // 🔥 función principal
 function displayCourses(list) {
@@ -96,8 +97,13 @@ function displayCourses(list) {
     }
     else{
     div.textContent = `${course.subject} ${course.number} - ${course.credits} credits`;
-}
+    }
+    div.addEventListener('click', () => {
+        displayCourseDetails(course);
+    });
     container.appendChild(div);
+
+    
   });
 
   // 🔥 reduce: créditos visibles
@@ -120,3 +126,21 @@ document.getElementById("wdd").addEventListener("click", () => {
 
 // 🚀 inicial
 displayCourses(courses);
+
+function displayCourseDetails(course) {
+    courseDetails.innerHTML = '';
+    courseDetails.innerHTML = `
+    <button id="closeModal">❌</button>
+    <h2>${course.subject} ${course.number}</h2>
+    <h3>${course.title}</h3>
+    <p><strong>Credits</strong>: ${course.credits}</p>
+    <p><strong>Certificate</strong>: ${course.certificate}</p>
+    <p>${course.description}</p>
+    <p><strong>Technologies</strong>: ${course.technology.join(', ')}</p>
+    `;
+    courseDetails.showModal();
+  
+    closeModal.addEventListener("click", () => {
+    courseDetails.close();
+  });
+}
