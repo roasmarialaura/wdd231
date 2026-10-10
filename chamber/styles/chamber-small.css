@@ -182,7 +182,51 @@ article.list .card img {
     grid-template-columns: 1fr;
     gap: 1rem;
 }
-    
+#allPlaces div{
+    margin: 1rem 8p;
+    border: 1px solid var(--border-light);
+    background-color: var(--secondary-color);
+    border-radius: 8px;
+    overflow: hidden;
+
+    display: grid;
+    grid-template-areas: 
+    "name"
+    "photo"
+    "description"
+    "location";
+} 
+#allPlaces div h2 {
+    margin: 1rem 10px;
+    grid-area: name;
+    color: var(--text-dark);
+
+} 
+#allPlaces div img {
+    width: 100%;
+    grid-area: photo;
+
+}
+#allPlaces div p {
+    margin: 1rem 10px;
+    grid-area: description;
+    color: var(--text-dark);
+}
+#allPlaces div address {
+    margin: 1rem 10px;
+    grid-area: location;
+    color: var(--text-dark);
+}
+#allPlaces div button {
+    background-color: var(--primary-color);
+    color: var(--text-light);
+}
+h1{
+    color: var(--text-dark);
+    text-align: center;
+}
+
+
 footer {
     background-color: var(--primary-color);
     padding: 1.5rem;
