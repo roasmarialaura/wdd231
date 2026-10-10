@@ -221,9 +221,10 @@ article.list .card img {
     background-color: var(--primary-color);
     color: var(--text-light);
 }
-h1{
+#visitMessage {
     color: var(--text-dark);
     text-align: center;
+    font-size: 2.0rem;
 }
 
 
