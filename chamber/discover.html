@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chamber Discover Page</title>
+    <meta name="description" content="WDD231 - Web Fronted Development I - Maria Laura Roas- Discover Page">
+    <meta name="author" content="Maria Laura Roas">
+    <meta property="og:title" content="Discover page">
+    <meta property="og:description" content="Discover the most fun activities in the southern area of Cordoba city.">
+    <meta property="og:url" content="http://127.0.0.1:5500/chamber/discover.html">
+    <meta property="og:image" content="https://roasmarialaura.github.io/wdd231/chamber/discover.html">
+    
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/chamber-small.css">
+    ><link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/chamber-larger.css">
+    <script src="scripts/navigation.js" defer></script>
+    <script src="scripts/date.js" defer></script>
+    <script src="scripts/discover.js" type="module" defer></script>
+
+    <link rel="icon" href="favicon.ico">
+
+</head>
+<body>
+    <header>
+        <img src="images/logo.svg" alt="site logo" width="45" height="45">
+        <span>Cordoba South Chamber of Commerce</span>
+        <button id="nav-button" class="hamburger" aria-label="navigation"></button>
+    
+        <nav id="nav-bar" class="navigation">
+            <ul>
+            <li><a href="home.html">Home</a></li>
+            <li class="current"><a href="#">Discover</a></li>
+            <li><a href="directory.html">Directory</a></li>
+            <li><a href="join.html">Join</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1 id="visitMessage"></h1>
+        <article id="allPlaces"></article>
+    </main>
+    <footer>
+        <div class="footer-container">
+            <section class="contact">
+                <h2>Cordoba South Chamber of Commerce</h2>
+                <p>750 Elias Jofre</p>
+                <p>Cordoba South, 5017</p>
+                <p>info@corbobasouth.org</p>
+                <p>+54-351-3553000</p>
+            </section>
+            <section class="social">
+                <a href="https://www.linkedin.com/in/maria-laura-roas-2675a4381" target="_blank"><img src="images/linkedin.svg" alt="linkedin" width="16" height="16"></a>
+                <a href="https://github.com/roasmarialaura" target="_blank"><img src="images/github.svg" alt="github" width="16" height="16"></a>
+                <a href="https://www.facebook.com/marialaura.roas" target="_blank"><img src="images/facebook.svg" alt="facebook" width="16" height="16"></a>
+            </section>
+            <section class="info">
+                <p>WDD231 - Class Project</p>
+                <p>Maria Laura Roas</p>
+                <p>    
+                    <span id="currentYear"></span>                           
+                </p>
+                <p>
+                    <span id="lastModified"></span> 
+                </p>
+            </section>
+        </div>
+           
+    </footer>
+</body>
+</html>
