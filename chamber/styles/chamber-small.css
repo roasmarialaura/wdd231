@@ -183,7 +183,7 @@ article.list .card img {
     gap: 1rem;
 }
 #allPlaces div{
-    margin: 1rem 8p;
+    margin: 0.5rem 3px;
     border: 1px solid var(--border-light);
     background-color: var(--secondary-color);
     border-radius: 8px;
