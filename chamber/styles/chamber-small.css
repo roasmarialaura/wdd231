@@ -120,17 +120,9 @@ article.list {
     flex-direction: column;
     gap: 1rem;
 }
-article.list .card {
-    display: grid;
-    grid-template-columns: 120px 1fr;
-    gap: 1rem;
 
-    text-align: left;
-    align-items: center;
-}
 article.list .card img {
-    grid-row: span 4;
-    margin: 0 auto;
+    display: none;
 }
 .hero {
     position: relative;
