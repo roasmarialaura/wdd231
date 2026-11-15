@@ -17,6 +17,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 
     <link rel="stylesheet" href="styles/chamber-small.css">
+    <link rel="stylesheet" href="styles/medium.css">
     <link rel="stylesheet" href="styles/chamber-larger.css">
     <script src="scripts/navigation.js" defer></script>
     <script src="scripts/date.js" defer></script>
@@ -44,9 +45,9 @@
         <section class="hero">
             <h1>Welcome to the Cordoba South Chamber of Commerce</h1>
             <picture>
-                <source srcset="images/hero1-large.webp" media="(min-width: 1000px)">
-                <source srcset="images/hero1-medium.webp" media="(min-width: 500px)">
-                <img src="images/hero1-small.webp" alt="Cordoba Chamber of Commerce" width="500" height="250">
+                <source srcset="images/hero2-large.webp" media="(min-width: 1000px)">
+                <source srcset="images/hero2-medium.webp" media="(min-width: 500px)">
+                <img src="images/hero2-small.webp" alt="Cordoba Chamber of Commerce" width="500" height="250">
             </picture>
             <button id="join">Join the Chamber</button>
         </section>
@@ -57,10 +58,13 @@
         </section>
 
         <section class="card-weather">
-            <h2 id="town"></h2>
-            <img id="graphic" src="images/logo.svg" alt="">
-            <p id="description"></p>
-            <p id="temperature"></p>
+            <div id="weather">
+                <h2 id="town"></h2>
+                <img id="graphic" src="" alt="">
+                <p id="description"></p>
+                <p id="temperature"></p>
+            </div>
+            <div id="forecast"></div>
         </section>
 	    <section class="spotlights">
             <article class="grid-spotlights"></article>
