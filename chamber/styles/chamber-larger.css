@@ -81,9 +81,16 @@
     .social img {
         width: 55px;
     } 
-    .hero button {
+    .hero h1 {
         position: absolute;
-        top: 50px;
-        right: 450px;
+        width: 100%;
+        background-color: var(--secondary-color);
+        font-size: 40px;
+        
     }
+    #join {
+        border: 5px solid var(--secondary-color);
+        border-radius: 2px;
+    }
+    
 }
