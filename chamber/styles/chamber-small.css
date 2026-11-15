@@ -128,10 +128,12 @@ article.list .card img {
     position: relative;
 }
 .hero h1 {
-    background-color: var(--secondary-color);
+    position: absolute;
+    background-color: color-mix(in srgb, var(--secondary-color) 50%, transparent);
     text-align: center;
     color: var(--text-dark);
     margin: 0px;
+    font-size: 20px;
 }
 .hero img {
   width: 100%;
@@ -144,15 +146,22 @@ article.list .card img {
     text-align: center;
 }
 #join {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    gap: 10px;
+    margin-bottom: 20px;
     background-color: var(--text-card);
     color: var(--text-light);
     padding: 10px;
+    border: 2px solid var(--secondary-color);
     
 }
 .card-weather {
-    border: 1px solid var(--border);
-    background-color: var(--secondary-color);
-    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
     text-align: center;
 }
 .card-weather h2 {
@@ -168,6 +177,23 @@ article.list .card img {
     font-size: 2rem;
     color: var(--text-card);
     margin: .3rem 0;
+}
+#weather {
+    background-color: var(--secondary-color);
+    border-radius: 2px;
+    margin: .3rem;
+}
+.forecast-day p{
+
+    text-transform: capitalize;
+}
+.forecast-day {
+    background-color: var(--primary-color);
+    color: var(--text-dark);
+    margin: 5px;
+    padding: 5px;
+    border-radius: 10px;
+    
 }
 .grid-spotlights {
     display: grid;
