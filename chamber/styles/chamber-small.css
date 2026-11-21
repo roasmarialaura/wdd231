@@ -147,7 +147,7 @@ article.list .card img {
 }
 #join {
     position: absolute;
-    top: 50%;
+    top: 70%;
     left: 50%;
     transform: translate(-50%, -50%);
     gap: 10px;
@@ -182,6 +182,10 @@ article.list .card img {
     background-color: var(--secondary-color);
     border-radius: 2px;
     margin: .3rem;
+}
+#graphic {
+    width: 75px;
+    height: 75px;
 }
 .forecast-day p{
 
